@@ -1,0 +1,74 @@
+/* import roboto font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+:root {
+  --bg-color: #e0fef2;
+  --icon-bg: #b1f3da;
+  --icon-color: #008064;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.main {
+  background-color: var(--bg-color);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 80px 1fr 40px;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+
+}
+
+.icon-circle {
+  height: 80px;
+  width: 80px;
+  background-color: var(--icon-bg);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-content {
+  color: var(--icon-color);
+  font-size: 30px;  
+  
+}
+
+.notice {
+
+}
+
+.notice a {
+  font-weight: 500;
+  color: var(--icon-color);
+  text-decoration: none;
+}
+
+
+.dismiss {
+
+}
+
+.dismiss button {
+  /* reset this button */
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color: gray;
+}
